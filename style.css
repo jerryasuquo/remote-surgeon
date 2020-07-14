@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    color: #2C2C2C
+}
+
+#navbar {
+    height: 85px;
+}
+
+.navbar-brand {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 14px;
+    margin-right: -30px;
+}
+
+.nav-item-solution {
+    font-weight: bold;
+    right: 240px;
+    top: 8px;
+    color: #2C2C2C;
+}
+
+.nav-item-pricing {
+    font-weight: bold;
+    right: 203px;
+    top: 8px;
+    color: #2C2C2C;
+}
+
+.nav-item-about {
+    font-weight: bold;
+    right: 166px;
+    top: 8px;
+    color: #2C2C2C;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: #23A4EF;
+    border: none;
+    right: 128px;
+    font-weight: bold;
+}
+
+.trial-box {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: #EF5423;
+    border: none;
+    right: 91px;
+    font-weight: bold;
+}
+
+#main {
+    background-image: url('./rm-banner\ 1.png');
+    height: 487.03px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.main-right {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.main-right h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    width: 102%;
+}
+
+.main-right p {
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+.main-right button {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    background: #EF5423;
+}
+
+.main-mid-top-box {
+    padding: 50px 0 590px 0;
+}
+
+.main-mid-top-box h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+
+    color: #2C2C2C;
+}
+
+.main-mid-top-box p {
+    padding-top: 24px;
+    /* padding-bottom: 55px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10%;
+    width: 80%;
+    color: #2C2C2C;
+}
+
+.main-img {
+    background-image: url('./rm-monitoring\ 1.png');
+    position: absolute;
+    width: 904px;
+    height: 644px;
+    bottom: 105px;
+    margin-left: 10%;
+}
+
+#main-mid-bottom {
+    background-image: url('./Rectangle\ 5.png');
+    height: 550px;
+    top: 400px;
+}
+
+.main-mid-bottom h1 {
+    text-align: center;
+    margin-top: 195px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+
+    color: #2C2C2C;
+}
